@@ -61,7 +61,26 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				chat: {
+					background: 'hsl(var(--chat-background))',
+					sidebar: 'hsl(var(--chat-sidebar))',
+					input: 'hsl(var(--chat-input-bg))',
+					'message-user': 'hsl(var(--chat-message-user))',
+					'message-bot': 'hsl(var(--chat-message-bot))',
+					'text-user': 'hsl(var(--chat-text-user))',
+					'text-bot': 'hsl(var(--chat-text-bot))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-secondary': 'var(--gradient-secondary)',
+				'gradient-chat': 'var(--gradient-chat-bg)'
+			},
+			boxShadow: {
+				'chat': 'var(--shadow-chat)',
+				'message': 'var(--shadow-message)',
+				'input': 'var(--shadow-input)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
@@ -84,11 +103,35 @@ export default {
 					to: {
 						height: '0'
 					}
+				},
+				float: {
+					'0%, 100%': { transform: 'translateY(0px)' },
+					'50%': { transform: 'translateY(-10px)' }
+				},
+				fadeInUp: {
+					from: { 
+						opacity: '0', 
+						transform: 'translateY(20px)' 
+					},
+					to: { 
+						opacity: '1', 
+						transform: 'translateY(0)' 
+					}
+				},
+				shimmer: {
+					'0%': { transform: 'translateX(-100%)' },
+					'100%': { transform: 'translateX(100%)' }
 				}
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'float': 'float 6s ease-in-out infinite',
+				'fadeInUp': 'fadeInUp 0.6s ease-out forwards',
+				'shimmer': 'shimmer 2s infinite'
+			},
+			transitionTimingFunction: {
+				'smooth': 'cubic-bezier(0.4, 0, 0.2, 1)'
 			}
 		}
 	},
