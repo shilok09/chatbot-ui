@@ -8,7 +8,7 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Chatbot design system */
+    /* Chatbot design system - Green theme */
     --background: 220 23% 6%;
     --foreground: 210 40% 98%;
 
@@ -18,7 +18,7 @@ All colors MUST be HSL.
     --popover: 220 20% 8%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 262 83% 70%;
+    --primary: 120 100% 50%;
     --primary-foreground: 220 23% 6%;
 
     --secondary: 220 15% 12%;
@@ -27,50 +27,50 @@ All colors MUST be HSL.
     --muted: 220 15% 12%;
     --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 220 15% 12%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 120 100% 50%;
+    --accent-foreground: 220 23% 6%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 220 15% 18%;
     --input: 220 15% 18%;
-    --ring: 262 83% 70%;
+    --ring: 120 100% 50%;
 
     --radius: 1rem;
 
-    /* Chat specific colors */
+    /* Chat specific colors - Green theme */
     --chat-background: 220 23% 6%;
     --chat-sidebar: 220 20% 8%;
     --chat-input-bg: 220 15% 12%;
-    --chat-message-user: 262 83% 70%;
+    --chat-message-user: 120 100% 50%;
     --chat-message-bot: 220 15% 12%;
     --chat-text-user: 220 23% 6%;
     --chat-text-bot: 210 40% 98%;
 
-    /* Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(262 83% 70%), hsl(282 100% 80%));
+    /* Gradients - Green theme */
+    --gradient-primary: linear-gradient(135deg, hsl(120 100% 50%), hsl(140 100% 60%));
     --gradient-secondary: linear-gradient(135deg, hsl(220 23% 6%), hsl(220 20% 8%));
-    --gradient-chat-bg: radial-gradient(ellipse at bottom, hsl(262 83% 70% / 0.05), transparent 50%);
+    --gradient-chat-bg: radial-gradient(ellipse at bottom, hsl(120 100% 50% / 0.05), transparent 50%);
 
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     --animation-float: float 6s ease-in-out infinite;
     --animation-pulse-slow: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
-    /* Shadows */
-    --shadow-chat: 0 25px 50px -12px hsl(262 83% 70% / 0.1);
+    /* Shadows - Green theme */
+    --shadow-chat: 0 25px 50px -12px hsl(120 100% 50% / 0.1);
     --shadow-message: 0 4px 6px -1px hsl(220 23% 6% / 0.2);
-    --shadow-input: 0 10px 25px -5px hsl(262 83% 70% / 0.1);
+    --shadow-input: 0 10px 25px -5px hsl(120 100% 50% / 0.1);
 
     --sidebar-background: 220 20% 8%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 262 83% 70%;
+    --sidebar-primary: 120 100% 50%;
     --sidebar-primary-foreground: 220 23% 6%;
     --sidebar-accent: 220 15% 12%;
     --sidebar-accent-foreground: 210 40% 98%;
     --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 262 83% 70%;
+    --sidebar-ring: 120 100% 50%;
   }
 
   .dark {
@@ -81,27 +81,27 @@ All colors MUST be HSL.
     --card-foreground: 210 40% 98%;
     --popover: 220 20% 8%;
     --popover-foreground: 210 40% 98%;
-    --primary: 262 83% 70%;
+    --primary: 120 100% 50%;
     --primary-foreground: 220 23% 6%;
     --secondary: 220 15% 12%;
     --secondary-foreground: 210 40% 98%;
     --muted: 220 15% 12%;
     --muted-foreground: 215 20.2% 65.1%;
-    --accent: 220 15% 12%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 120 100% 50%;
+    --accent-foreground: 220 23% 6%;
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
     --border: 220 15% 18%;
     --input: 220 15% 18%;
-    --ring: 262 83% 70%;
+    --ring: 120 100% 50%;
     --sidebar-background: 220 20% 8%;
     --sidebar-foreground: 210 40% 98%;
-    --sidebar-primary: 262 83% 70%;
+    --sidebar-primary: 120 100% 50%;
     --sidebar-primary-foreground: 220 23% 6%;
     --sidebar-accent: 220 15% 12%;
     --sidebar-accent-foreground: 210 40% 98%;
     --sidebar-border: 220 15% 18%;
-    --sidebar-ring: 262 83% 70%;
+    --sidebar-ring: 120 100% 50%;
   }
 }
 
